@@ -1,1 +1,7 @@
 img.logo { width: 100%; height: auto; max-height: 49px;}
+
+body nav input.search-bar { width :400px; margin-left: 10px; }
+
+.navbar>.container-fluid { flex-wrap: nowrap; min-width: 1000px; }
+body nav div.navbar-icon span{ margin-left: 15px; flex-wrap: nowrap;}
+

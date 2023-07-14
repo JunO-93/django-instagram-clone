@@ -1,4 +1,4 @@
-{%load static   %}
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -34,6 +34,42 @@
           </div>
         </div>
     </nav>
+    <!-- main-content -->
+    <div class="main">
+      <div class="left-section">
+        <div class="feed-style">
+          <div class="user-info">
+            <div class="box"> 
+              <img class="profile" src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/cnoC/image/DWkL1bDRQTGMZP8UFQuJ_WGR_IY">
+            </div>
+            <div>
+              chunsik_
+            </div>
+          </div>
+          <div class="img-box"> 
+            <img src="{% static '/img/jeju.jpeg' %}">
+          </div>
+          <section class="feed-text"> 
+            <div class="feed-icon">
+              <span class="material-symbols-outlined">favorite</span>
+              <span class="material-symbols-outlined">mode_comment</span>
+              <span class="material-symbols-outlined">send</span>
+            </div>
+            <div>
+              <span class="material-symbols-outlined">bookmark_border</span>
+            </div>
+          </section>
+          <section class="feed-good">
+            <div> 좋아요 100개</div>
+          </section>
+          <div> 사용자 정보 </div>
+          <div> 댓글 입력창 </div>
+        </div>
+      </div>
+      <div class="right-section">
+        오른쪽
+      </div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

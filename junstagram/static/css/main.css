@@ -17,15 +17,24 @@ body div.img-box img{
 
 }
 body div.feed-style {width: 600px;border: solid 1px grey; background-color: white;}
-body section.feed-text {
+body div.feed-text {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 5px 0 5px;
 }
-body section.feed-good {
+body div.feed-icon {
+    margin: 0px 5px 5px 5px;
+}
+body div.feed-icon span{
+    margin: 0px 6px 0px 0px;
+}
+
+body div.feed-like {
     text-align: left;
     margin: 0 0 0 5px;
+    font-size: 14px;
+    display: flex;
 }
 
 .box {
@@ -33,10 +42,36 @@ body section.feed-good {
     height: 45px; 
     border-radius: 70%;
     overflow: hidden;
+    margin: 5px 10px 0px 5px;
 }
+.box-mini {
+    width: 22.5px;
+    height: 22.5px; 
+    border-radius: 70%;
+    overflow: hidden;
+    margin: 0px 5px 5px 5px;
+}
+
 .profile {
     width: 100%;
     height: 100%;
 }
+
+.profile-mini {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    text-align: left;
+    margin: 0px 5px 0px 15px;
+    font-size: 14px;
+}
+body div.comment {
+    text-align: left;
+    margin: 0px 5px 0px 15px;
+    font-size: 14px;
+}
+
 body div.right-section {width: 400px; height: 1000px; background-color: orange; text-align: center; justify-content: center; margin-top: 57.58px;
 position: fixed; left:70.8%; } 
